@@ -16,7 +16,6 @@ async function start() {
   }
 
   web3 = new Web3(new Web3.providers.HttpProvider(config.network.rpc));
-  accs = await web3.eth.getAccounts();
 
   const faucetEthBalance = await web3.eth.getBalance(config.account.address);
   if(faucetEthBalance === 0) {
