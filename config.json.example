@@ -1,8 +1,8 @@
 {
   "network": {
     "rpc": "http://localhost:8545",
-	"listenInterface": "::1",
-	"listenPort": 8679
+    "listenInterface": "::1",
+    "listenPort": 8679
   },
   "account": {
     "address": "0x...",
