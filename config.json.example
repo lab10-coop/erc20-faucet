@@ -1,0 +1,14 @@
+{
+  "network": {
+    "rpc": "http://localhost:8545",
+	"listenInterface": "::1",
+	"listenPort": 8679
+  },
+  "account": {
+    "address": "0x...",
+    "privateKey": "0x..."
+  },
+  "tokenAddress": "0x...",
+  "amount": 1,
+  "gas": 60000
+}
