@@ -12,7 +12,7 @@ Includes only the parts of the ERC-20 ABI which are needed (get decimals, check 
 * Run with `npm start`
 
 Now any http client can trigger a token transfer to a given address.  
-Example: `curl http://localhost:8678/addr/0x05125d60d2754e4d219cae2f2dcba46f73d415a2`  
+Example: `curl http://localhost:8678/0x05125d60d2754e4d219cae2f2dcba46f73d415a2`  
 
 If the return http status code is 200, a transfer transaction was broadcast and the request ends.  
 In order to check if/when the transaction was executed, a caller needs to observe the chain (or the log). 
