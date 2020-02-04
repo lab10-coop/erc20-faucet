@@ -82,7 +82,8 @@ async function refuelAccount(userAddr, callback) {
     from: config.account.address,
     to: config.tokenAddress,
     data: contract.methods.transfer(userAddr, new BN(config.amount).mul(new BN(10).pow(new BN(decimals))).toString()).encodeABI(),
-    gas: config.gas
+    gas: config.gas,
+    gasPrice: config.gasPrice
   };
   const signedTxObj = await web3.eth.accounts.signTransaction(txObj, config.account.privateKey);
 

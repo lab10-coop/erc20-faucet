@@ -10,5 +10,6 @@
   },
   "tokenAddress": "0x...",
   "amount": 1,
-  "gas": 60000
+  "gas": 60000,
+  "gasPrice": 100000000000
 }
